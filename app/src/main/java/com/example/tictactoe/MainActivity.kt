@@ -74,7 +74,7 @@ class MainActivity : AppCompatActivity() {
             btnC1.text = ""
             btnC2.text = ""
             btnC3.text = ""
-            gameText.text = "X's turn"
+            gameText.text = "Player X's turn"
             currPlayer = "x"
         }
     }
@@ -83,10 +83,10 @@ class MainActivity : AppCompatActivity() {
         if (btn.text == "") {
             if (currPlayer == "x") {
                 btn.text = "x"
-                gameText.text = "O's turn"
+                gameText.text = "Player O's turn"
             } else {
                 btn.text = "o"
-                gameText.text = "X's turn"
+                gameText.text = "Player X's turn"
             }
         }
     }
