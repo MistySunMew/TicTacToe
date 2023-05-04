@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TicTacToe</string>
+    <string name="new_game">New Game</string>
+    <string name="press_new_game_to_start">Press New Game to Start</string>
+    <string name="x">x</string>
+    <string name="o">o</string>
+    <string name="blank"> </string>
+</resources>
